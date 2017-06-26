@@ -1,0 +1,24 @@
+{
+    "caracters": {
+        "bohort": {
+            "quotes": [
+                "M\u00e9cr\u00e9aaaaannnnnnts",
+                "Donnez leur les radasses qu'on en finisse"
+            ]
+        },
+        "karadoc": {
+            "quotes": [
+                "Le gras, c'est la vie",
+                "C'est d'la merde"
+            ]
+        },
+        "perceval": {
+            "quotes": [
+                "On en a gros",
+                "Il fait beau, mais frais, mais beau quand m\u00eame",
+                "Avant j'avais deux ennemis: le vocabulaire et les \u00e9pinards.\nMaintenant, j'ai la botte secr\u00e8te et je mange plus d'\u00e9pinard",
+                "Pays de Galles ind\u00e9pendent!"
+            ]
+        }
+    }
+}

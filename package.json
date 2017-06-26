@@ -1,0 +1,15 @@
+{
+  "name": "cornouapi",
+  "version": "0.0.1",
+  "description": "L'API semi croustillante",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "statox (me@statox.fr)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
