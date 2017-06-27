@@ -1,4 +1,5 @@
 var quoteService = require('../quotes.js');
+var caracterService = require('../caracters.js');
 
 var appRouter = function(app) {
 
@@ -8,6 +9,12 @@ var appRouter = function(app) {
 
         return res.send(quote);
     }); 
+
+    app.get("/caracter/list", function(req, res) {
+        var caracters = caracterService.getCaractersList();
+
+        return res.send(caracters);
+    });
 }
 
 module.exports = appRouter;
