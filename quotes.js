@@ -15,6 +15,10 @@ var quoteService = (function() {
         return quote
     };
 
+    service.getQuoteByTag = function (tag) {
+        return;
+    };
+
     return service;
 }());
 
