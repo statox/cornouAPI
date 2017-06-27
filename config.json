@@ -4,11 +4,13 @@
             "quotes": [
                 {
                 "quote": "M\u00e9cr\u00e9aaaaannnnnnts",
-                "episode": "SXXEXX"
+                "episode": "SXXEXX",
+                "tags": ["t2"]
                 },
                 {
                 "quote": "Donnez leur les radasses qu'on en finisse",
-                "episode": "SXXEXX"
+                "episode": "SXXEXX",
+                "tags": ["t3"]
                 }
             ]
         },
@@ -16,11 +18,13 @@
             "quotes": [
                 {
                     "quote": "Le gras, c'est la vie",
-                    "episode": "SXXEXX"
+                    "episode": "SXXEXX",
+                    "tags": ["t4"]
                 },
                 {
                     "quote": "C'est d'la merde",
-                    "episode": "SXXEXX"
+                    "episode": "SXXEXX",
+                    "tags": ["t5"]
                 }
             ]
         },
@@ -28,19 +32,23 @@
             "quotes": [
                 {
                     "quote": "On en a gros",
-                    "episode": "SXXEXX"
+                    "episode": "SXXEXX",
+                    "tags": ["t6"]
                 },
                 {
                     "quote": "Il fait beau, mais frais, mais beau quand m\u00eame",
-                    "episode": "SXXEXX"
+                    "episode": "SXXEXX",
+                    "tags": ["t7"]
                 },
                 {
                     "quote": "Avant j'avais deux ennemis: le vocabulaire et les \u00e9pinards.\nMaintenant, j'ai la botte secr\u00e8te et je mange plus d'\u00e9pinard",
-                    "episode": "SXXEXX"
+                    "episode": "SXXEXX",
+                    "tags": ["t8"]
                 },
                 {
                     "quote": "Pays de Galles ind\u00e9pendent!",
-                    "episode": "SXXEXX"
+                    "episode": "SXXEXX",
+                    "tags": ["t9"]
                 }
             ]
         }
