@@ -2,22 +2,46 @@
     "caracters": {
         "bohort": {
             "quotes": [
-                "M\u00e9cr\u00e9aaaaannnnnnts",
-                "Donnez leur les radasses qu'on en finisse"
+                {
+                "quote": "M\u00e9cr\u00e9aaaaannnnnnts",
+                "episode": "SXXEXX"
+                },
+                {
+                "quote": "Donnez leur les radasses qu'on en finisse",
+                "episode": "SXXEXX"
+                }
             ]
         },
         "karadoc": {
             "quotes": [
-                "Le gras, c'est la vie",
-                "C'est d'la merde"
+                {
+                    "quote": "Le gras, c'est la vie",
+                    "episode": "SXXEXX"
+                },
+                {
+                    "quote": "C'est d'la merde",
+                    "episode": "SXXEXX"
+                }
             ]
         },
         "perceval": {
             "quotes": [
-                "On en a gros",
-                "Il fait beau, mais frais, mais beau quand m\u00eame",
-                "Avant j'avais deux ennemis: le vocabulaire et les \u00e9pinards.\nMaintenant, j'ai la botte secr\u00e8te et je mange plus d'\u00e9pinard",
-                "Pays de Galles ind\u00e9pendent!"
+                {
+                    "quote": "On en a gros",
+                    "episode": "SXXEXX"
+                },
+                {
+                    "quote": "Il fait beau, mais frais, mais beau quand m\u00eame",
+                    "episode": "SXXEXX"
+                },
+                {
+                    "quote": "Avant j'avais deux ennemis: le vocabulaire et les \u00e9pinards.\nMaintenant, j'ai la botte secr\u00e8te et je mange plus d'\u00e9pinard",
+                    "episode": "SXXEXX"
+                },
+                {
+                    "quote": "Pays de Galles ind\u00e9pendent!",
+                    "episode": "SXXEXX"
+                }
             ]
         }
     }
