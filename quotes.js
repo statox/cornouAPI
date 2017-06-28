@@ -8,11 +8,15 @@ var quoteService = (function() {
     };
 
     service.getRandomQuoteFromCaracter = function (caracter) {
-        var quotes = config.caracters[caracter].quotes;
+        var quotes = getAllQuotesFromCaracter(caracter);
         var quoteIndex = this.randomInt(quotes.length - 1);
         var quote = quotes[quoteIndex];
 
         return quote
+    };
+
+    service.getTaggedQuoteFromCaracter = function(caracter, tag) {
+        return "Tagged " + tag + " from " + caracter;
     };
 
     service.getQuoteByTag = function (tag) {
@@ -26,13 +30,27 @@ var quoteService = (function() {
     getAllQuotes = function() {
         var quotes = [];
         Object.keys(config.caracters).forEach(function(c) {
-            var car = config.caracters[c];
             var carQuotes = config.caracters[c].quotes;
             quotes = quotes.concat(carQuotes);
         });
 
         return quotes;
-    }
+    };
+
+    getAllQuotesFromCaracter = function(caracter) {
+        var quotes = [];
+
+        Object.keys(config.caracters).forEach(function(c) {
+            var carQuotes = config.caracters[c].quotes;
+            var carAliases = config.caracters[c].aliases;
+
+            if (carAliases.indexOf(caracter) != -1) {
+                quotes = quotes.concat(carQuotes);
+            }
+        });
+
+        return quotes;
+    };
 
     return service;
 }());

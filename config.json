@@ -1,6 +1,7 @@
 {
     "caracters": {
         "bohort": {
+            "aliases": ["bohort"],
             "quotes": [
                 {
                 "quote": "M\u00e9cr\u00e9aaaaannnnnnts",
@@ -15,6 +16,7 @@
             ]
         },
         "karadoc": {
+            "aliases": ["karadoc", "caradoc"],
             "quotes": [
                 {
                     "quote": "Le gras, c'est la vie",
@@ -29,6 +31,7 @@
             ]
         },
         "perceval": {
+            "aliases": ["perceval"],
             "quotes": [
                 {
                     "quote": "On en a gros",
