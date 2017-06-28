@@ -1,3 +1,4 @@
+var formatter = require('./format.js');
 var config = require('./config.json');
 
 var quoteService = (function() {
@@ -11,6 +12,7 @@ var quoteService = (function() {
         var quotes = getAllQuotesFromCaracter(caracter);
         var quoteIndex = this.randomInt(quotes.length - 1);
         var quote = quotes[quoteIndex];
+        quote = formatter.formatQuote(quote);
 
         return quote
     };
@@ -24,6 +26,7 @@ var quoteService = (function() {
         quotes = quotes.filter(function(q) {
             return q.tags.indexOf(tag) != -1;
         });
+
         return quotes;
     };
 

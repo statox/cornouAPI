@@ -79,6 +79,26 @@
                     "tags": ["poule", "poulette", "temps", "meteo", "chaud"]
                 }
             ]
+        },
+        "loth": {
+            "aliases": ["loth", "lotte", "roi loth", "roi lotte"],
+            "quotes": [
+                {
+                    "quote": "Tempora mori, tempora mundis recorda. Voilà, eh ben ça par exemple, ça ne veut absolument rien dire, mais l’effet reste le même... »",
+                    "episode": "Livre III, tome 1, épisode 27 ",
+                    "tags": ["loth", "latin"]
+                },
+                {
+                    "quote": "Ave Cesar, rosae rosam, et spiritus rex ! Ah non, parce que là, j’en ai marre !",
+                    "episode": "",
+                    "tags": ["loth", "latin"]
+                },
+                {
+                    "quote": "- [Loth:] Sanctis recorda, sanctis deus rex.\n[Galessin] Ce qui veut dire ?\n[Loth] Absolument rien. Pourquoi ? ",
+                    "episode": "",
+                    "tags": ["loth", "latin"]
+                }
+            ]
         }
     }
 }
