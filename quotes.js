@@ -16,8 +16,23 @@ var quoteService = (function() {
     };
 
     service.getQuoteByTag = function (tag) {
-        return;
+        var quotes = getAllQuotes();
+        quotes = quotes.filter(function(q) {
+            return q.tags.indexOf(tag) != -1;
+        });
+        return quotes;
     };
+
+    getAllQuotes = function() {
+        var quotes = [];
+        Object.keys(config.caracters).forEach(function(c) {
+            var car = config.caracters[c];
+            var carQuotes = config.caracters[c].quotes;
+            quotes = quotes.concat(carQuotes);
+        });
+
+        return quotes;
+    }
 
     return service;
 }());
