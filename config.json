@@ -54,6 +54,31 @@
                     "tags": ["revolte", "galles"]
                 }
             ]
+        },
+        "kadoc": {
+            "aliases": ["kadoc", "cadoc"],
+            "quotes": [
+                {
+                    "quote": "A Kadoc",
+                    "episode": "SXXEXX",
+                    "tags": ["idiot", "jeu"]
+                },
+                {
+                    "quote": "Mordu! Mordu! Mordumordumordu! Mooordu!",
+                    "episode": "SXXEXX",
+                    "tags": ["idiot", "jeu", "mordu", "mordre"]
+                },
+                {
+                    "quote": "Elle est où la poulette?",
+                    "episode": "SXXEXX",
+                    "tags": ["poule", "poulette", "cache"]
+                },
+                {
+                    "quote": "Pour savoir le temps qu'il va faire, faut mettre son doigt dans le cul d'une poule",
+                    "episode": "SXXEXX",
+                    "tags": ["poule", "poulette", "temps", "meteo", "chaud"]
+                }
+            ]
         }
     }
 }
