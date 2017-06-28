@@ -4,14 +4,14 @@
             "aliases": ["bohort"],
             "quotes": [
                 {
-                "quote": "M\u00e9cr\u00e9aaaaannnnnnts",
-                "episode": "SXXEXX",
-                "tags": ["mecreants", "religion", "fou"]
+                    "quote": "M\u00e9cr\u00e9aaaaannnnnnts",
+                    "episode": "SXXEXX",
+                    "tags": ["mecreants", "religion", "fou"]
                 },
                 {
-                "quote": "Donnez leur les radasses qu'on en finisse",
-                "episode": "SXXEXX",
-                "tags": ["femme", "lache", "guerre"]
+                    "quote": "Donnez leur les radasses qu'on en finisse",
+                    "episode": "SXXEXX",
+                    "tags": ["femme", "lache", "guerre"]
                 }
             ]
         },

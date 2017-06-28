@@ -18,7 +18,6 @@ var appRouter = function(app) {
         return res.send(quote);
     }); 
 
-
     app.get("/caracter/list", function(req, res) {
         var caracters = caracterService.getCaractersList();
 
